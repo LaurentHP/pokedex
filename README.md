@@ -1,2 +1,2 @@
 # pokedex
-Training in ReactJS, getting pokedex entries through an API.
+Training in AngularJS, getting pokedex entries through an API.
