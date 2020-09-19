@@ -1,9 +1,13 @@
 <mat-card class="card-style" [ngClass]="mainType+'-type'">
   <div>
-    <img [src]="img"/>
-    <span></span>
-    <span>#{{fixedId}}</span>
-    <span>{{pokemon.name}}</span>
-    <span>{{pokemon.type}}</span>
+    <p class="id-style">#{{fixedId}}</p>
+    <img class="img-style" [src]="img"/>
+  </div>
+  <div>
+    <p class="name-style">{{pokemon.name}}</p>
+  </div>
+  
+  <div>
+    <p class="type-style">{{pokemon.type}}</p>
   </div>
 </mat-card>
